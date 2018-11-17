@@ -1,0 +1,11 @@
+QListWidget{
+    border:1px solid gray;
+    color: black;
+}
+QListWidget::Item{
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+QListWidget::Item:hover{
+    background: skyblue;
+}
